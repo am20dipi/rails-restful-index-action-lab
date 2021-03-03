@@ -1,0 +1,8 @@
+<h1>Students</h1>
+
+<body>
+    <p> <% @students.each do |s| %>
+            <%= s.first_name + " " + s.last_name %>
+        <% end %>
+    </p>
+</body>
